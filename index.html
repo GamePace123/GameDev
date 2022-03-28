@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Slutuppgift">
+        <meta name="author" content="Paul">
+        <link rel="stylesheet" href="index.css">
+        <title> Slutuppgift Webbutveckling </title>
+    </head>
+
+    <body>
+ 
+        <div id="menu-bar">
+            <div id="menu" onclick="onClick()">
+                <div id="bar1" class="bar"></div>
+                <div id="bar2" class="bar"></div>
+                <div id="bar3" class="bar"></div>
+            </div>
+        </div>
+        <script defer>
+        function onClick(){
+           let Menu = document.getElementById("menu");
+           Menu.classList.toggle("change");
+           /*document.getElementById("menu").classList  copy this for test*/
+        }
+        </script>
+    </body>
+
+</html>
