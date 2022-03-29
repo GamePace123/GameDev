@@ -1,29 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="description" content="Slutuppgift">
-        <meta name="author" content="Paul">
-        <link rel="stylesheet" href="index.css">
-        <title> Slutuppgift Webbutveckling </title>
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Dev</title>
 
-    <body>
- 
-        <div id="menu-bar">
-            <div id="menu" onclick="onClick()">
-                <div id="bar1" class="bar"></div>
-                <div id="bar2" class="bar"></div>
-                <div id="bar3" class="bar"></div>
-            </div>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Css/SharedCss.css">
+    <script src="Javascript/Main.js" type="text/javascript" defer></script>
+</head>
+<body>
+
+    <div id="Loadingscreen">
+        <div class="LoadingRing"></div>
+        <span>Loading...</span>
+    </div>
+
+    
+
+    <header class="LoadAllOtherElements">
+        <nav class="TopRow">
+            <a href="OurProjects.html">Our Projects</a>
+            <a href="#CurrentDevelopment">Current Development</a>
+            <a href="#ContactBox">Contacts</a>
+        </nav>
+    </header>
+
+    <h1 class="ColorWhite LoadAllOtherElements" >Home</h1>
+
+    <div class="AboutUsBox LoadAllOtherElements">
+        <div>
+            <h4 class="ColorWhite">About us</h4>
+            <p class="ColorWhite">Currently there is only one person working on this game.</p>
+
+            <h4 class="ColorWhite">Our vision</h4>
+            <p class="ColorWhite">Our vision in this game and other projects in the future is to provide a enjoyable 
+                experience for a affordable price. A experience that will be developed by us and 
+                the supporters of the games and projects.
+            if you want more information then go to <a href="#">Our Projects</a></p>
         </div>
-        <script defer>
-        function onClick(){
-           let Menu = document.getElementById("menu");
-           Menu.classList.toggle("change");
-           /*document.getElementById("menu").classList  copy this for test*/
-        }
-        </script>
-    </body>
+    </div>
+    <div class="ContactBox LoadAllOtherElements">
+        <ul>
+            <li>
+                <p>No info right now</p>
+            </li>
+        </ul>
+    </div>
 
+</body>
 </html>
+ 

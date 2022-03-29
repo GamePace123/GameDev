@@ -1,0 +1,237 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+@media screen and (orientation: landscape) and (max-width: 480px) {
+
+    /* General Info */
+    .LoadAllOtherElements{
+        transform: rotate(-90deg);
+        opacity: 0%;
+        animation-name: LoadingComplete;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+    .TopRow a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: #a0a0a0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+     /* The Unknown Page */
+
+    .PhysicsVideo{
+        display: block;
+        height: 60vh;
+        width: 80vw;
+        object-fit: cover;
+    }
+
+    .PhysicsVideoContainer{
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (orientation: portrait) and (max-width: 480px) {
+    
+    /* General Info */
+    .LoadAllOtherElements{
+        opacity: 0%;
+        animation-name: LoadingComplete;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+    .TopRow a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: #a0a0a0;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    /* The Unknown Page */
+    .PhysicsVideo {
+        display: block;
+        height: 50vh;
+        min-width: 400px;
+        object-fit: cover;
+    }
+
+    .PhysicsVideoContainer{
+        display: flex;
+        align-items: initial;
+    }
+    
+}
+
+@media (min-width: 490px){
+    /* General Info */
+    .LoadAllOtherElements{
+        opacity: 0%;
+        animation-name: LoadingComplete;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+    .TopRow a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: #a0a0a0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+    /* The Unknown Menu */
+
+    .PhysicsVideo{
+        display: block;
+        object-fit: cover;
+        max-height: 50vh;
+        width: 600px;
+    }
+
+    .PhysicsVideoContainer{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.TopRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.TopRow a::after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    transition: 0.3s;
+    bottom: -10px;
+}
+
+.TopRow a:hover::after{
+    width: 100%;
+}
+
+body{
+    background-color: rgb(0, 4, 29);
+    overflow-x: hidden;
+}
+
+
+@keyframes LoadingComplete{
+    0%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.ColorWhite{
+    color: white;
+}
+
+.Center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactBox{
+    height: 60vh;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: rgb(152, 165, 255);
+}
+
+/* Loading Screen */
+
+#Loadingscreen{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.LoadingRing{
+    position: absolute;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation: LoadingRing 0.5s linear infinite;
+}
+
+@keyframes LoadingRing{
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 1px 5px 2px #e65c00;
+    }
+    50%{
+        transform: rotate(180deg);
+        box-shadow: 1px 5px 2px #18b201;
+    }
+    100%{
+        transform: rotate(360deg);
+        box-shadow: 1px 5px 2px #0456c8;
+    }
+}
+.LoadingRing::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255,255,255,.3);
+}
+
+#Loadingscreen span{
+    color: #737373;
+    font-family: montserrat;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 200px;
+    animation: Loadingtext 3s ease-in-out linear infinite;
+}
+
+@keyframes Loadingtext{
+    50%{
+        color: black;
+    }
+    100%{
+        color: #737373;
+    }
+}
