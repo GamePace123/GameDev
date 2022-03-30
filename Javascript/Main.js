@@ -18,6 +18,9 @@ function Rain(){
         let PositionX = Math.floor(Math.random() * window.innerWidth);
         let delay = Math.random() * -20;
 
+        window.visualViewport.height
+
+        
         Drop.style.width = 0.2 + Size + 'px';
         Drop.style.left = PositionX + 'px';
         Drop.style.zIndex = 0;
