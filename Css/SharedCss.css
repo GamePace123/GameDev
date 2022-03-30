@@ -262,7 +262,7 @@ i:nth-child(3n + 3){
 
 @keyframes RainDrop{
     0%{
-        transform: translateY(-100vh);
+        transform: translateY(calc(-100vh - 200px));
     }
     100%{
         transform: translateY(calc(100vh + 200px));
