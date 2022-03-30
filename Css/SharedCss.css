@@ -8,6 +8,7 @@
     .LoadAllOtherElements{
         transform: rotate(-90deg);
         opacity: 0%;
+        z-index: 1;
         animation-name: LoadingComplete;
         animation-duration: 2s;
         animation-fill-mode: forwards;
@@ -45,6 +46,7 @@
     /* General Info */
     .LoadAllOtherElements{
         opacity: 0%;
+        z-index: 1;
         animation-name: LoadingComplete;
         animation-duration: 2s;
         animation-fill-mode: forwards;
@@ -81,6 +83,7 @@
     /* General Info */
     .LoadAllOtherElements{
         opacity: 0%;
+        z-index: 1;
         animation-name: LoadingComplete;
         animation-duration: 2s;
         animation-fill-mode: forwards;
