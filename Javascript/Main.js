@@ -6,7 +6,6 @@ function LoadComplete()
 {
     var load_screen = document.getElementById("Loadingscreen");
     document.body.removeChild(load_screen);
-    Rain();
 }
 
 function Rain(){
