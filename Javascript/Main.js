@@ -21,6 +21,7 @@ function Rain(){
 
         Drop.style.width = 0.2 + Size + 'px';
         Drop.style.left = PositionX + 'px';
+        Drop.style.zIndex = 0;
         Drop.style.animationDelay = delay + 's';
         body.appendChild(Drop);
         i++;
