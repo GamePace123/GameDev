@@ -68,7 +68,7 @@
     .TrailerVideo{
         display: block;
         object-fit: cover;
-        max-height: 50vh;
+        max-height: 1vh;
         width: 600px;
     }
 
