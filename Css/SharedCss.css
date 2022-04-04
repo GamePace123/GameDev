@@ -2,6 +2,47 @@
     box-sizing: border-box;
 }
 
+@media screen and (orientation: landscape) and (max-width: 812px){
+
+    /* General Info */
+    .LoadAllOtherElements{
+        transform: rotate(-90deg);
+        opacity: 0%;
+        z-index: 1;
+        animation-name: LoadingComplete;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-delay: 0.5s;
+    }
+
+
+    .TopRow a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        color: #a0a0a0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+        white-space: nowrap;
+    }
+
+     /* The Unknown Page */
+
+    .TrailerVideo{
+        display: block;
+        height: 100vh;
+        width: 80vw;
+        object-fit: cover;
+    }
+
+    .TrailerVideoContainer{
+        display: flex;
+        background-color: blue;
+        align-items: center;
+    }
+}
+
 @media screen and (orientation: portrait) and (max-width: 480px) {
     
     /* General Info */
@@ -41,7 +82,7 @@
     
 }
 
-@media (min-width: 490px){
+@media (min-width: 1000px){
     /* General Info */
     .LoadAllOtherElements{
         opacity: 0%;
@@ -75,47 +116,6 @@
     .TrailerVideoContainer{
         display: flex;
         background-color: white;
-        align-items: center;
-    }
-}
-
-@media screen and (orientation: landscape){
-
-    /* General Info */
-    .LoadAllOtherElements{
-        transform: rotate(-90deg);
-        opacity: 0%;
-        z-index: 1;
-        animation-name: LoadingComplete;
-        animation-duration: 2s;
-        animation-fill-mode: forwards;
-        animation-delay: 0.5s;
-    }
-
-
-    .TopRow a{
-        position: relative;
-        text-decoration: none;
-        font-family: 'Poppins', sans-serif;
-        color: #a0a0a0;
-        font-size: 18px;
-        letter-spacing: 0.5px;
-        padding: 0 10px;
-        white-space: nowrap;
-    }
-
-     /* The Unknown Page */
-
-    .TrailerVideo{
-        display: block;
-        height: 100vh;
-        width: 80vw;
-        object-fit: cover;
-    }
-
-    .TrailerVideoContainer{
-        display: flex;
-        background-color: blue;
         align-items: center;
     }
 }
