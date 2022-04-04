@@ -30,7 +30,7 @@
 
     .TrailerVideo{
         display: block;
-        height: 60vh;
+        height: 100vh;
         width: 80vw;
         object-fit: cover;
     }
