@@ -37,7 +37,7 @@
 
     .TrailerVideoContainer{
         display: flex;
-        background-color: white;
+        background-color: blue;
         align-items: center;
     }
 }
