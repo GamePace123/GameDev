@@ -82,7 +82,7 @@
     
 }
 
-@media (min-width: 490px){
+@media (orientation: portrait) and (min-width: 490px){
     /* General Info */
     .LoadAllOtherElements{
         opacity: 0%;
