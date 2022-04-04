@@ -28,14 +28,14 @@
 
      /* The Unknown Page */
 
-    .PhysicsVideo{
+    .TrailerVideo{
         display: block;
         height: 60vh;
         width: 80vw;
         object-fit: cover;
     }
 
-    .PhysicsVideoContainer{
+    .TrailerVideoContainer{
         display: flex;
         align-items: center;
     }
@@ -65,14 +65,14 @@
     }
 
     /* The Unknown Page */
-    .PhysicsVideo {
+    .TrailerVideo {
         display: block;
         height: 50vh;
         min-width: 400px;
         object-fit: cover;
     }
 
-    .PhysicsVideoContainer{
+    .TrailerVideoContainer{
         display: flex;
         align-items: initial;
     }
@@ -103,14 +103,14 @@
 
     /* The Unknown Menu */
 
-    .PhysicsVideo{
+    .TrailerVideo{
         display: block;
         object-fit: cover;
         max-height: 50vh;
         width: 600px;
     }
 
-    .PhysicsVideoContainer{
+    .TrailerVideoContainer{
         display: flex;
         align-items: center;
     }
