@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (orientation: landscape) and (max-width: 480px) {
+@media screen and (orientation: landscape) {
 
     /* General Info */
     .LoadAllOtherElements{
