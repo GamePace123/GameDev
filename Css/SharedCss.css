@@ -37,6 +37,7 @@
 
     .TrailerVideoContainer{
         display: flex;
+        background-color: white;
         align-items: center;
     }
 }
@@ -74,6 +75,7 @@
 
     .TrailerVideoContainer{
         display: flex;
+        background-color: white;
         align-items: initial;
     }
     
@@ -112,6 +114,7 @@
 
     .TrailerVideoContainer{
         display: flex;
+        background-color: white;
         align-items: center;
     }
 }
