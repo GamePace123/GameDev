@@ -82,7 +82,7 @@
     
 }
 
-@media (min-width: 1000px){
+@media screen and (min-width: 1000px){
     /* General Info */
     .LoadAllOtherElements{
         opacity: 0%;
