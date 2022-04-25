@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (orientation: landscape) and (min-height: 480px){
+@media screen and (orientation: landscape) and (min-widht: 480px){
 
     /* General Info */
     .LoadAllOtherElements{
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and (min-width: 480px) {
+@media screen and (orientation: portrait) and (min-width: 300px) {
     
     /* General Info */
     .LoadAllOtherElements{
