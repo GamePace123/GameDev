@@ -27,7 +27,7 @@
         white-space: nowrap;
     }
 
-    /*Test*/
+    /*The Unknwon site*/
 
     .TrailerVideo{
         display: block;
@@ -109,7 +109,7 @@
     .TrailerVideo{
         display: block;
         object-fit: cover;
-        max-height: 1vh;
+        max-height: 50vh;
         width: 600px;
     }
 
