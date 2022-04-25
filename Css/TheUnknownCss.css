@@ -47,3 +47,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.HeaderRub{
+    align-self: center;
+}
