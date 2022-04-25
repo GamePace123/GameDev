@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (orientation: portrait) and (max-width: 480px) {
+@media screen and (orientation: portrait) and (min-width: 480px) {
     
     /* General Info */
     .LoadAllOtherElements{
@@ -82,7 +82,7 @@
     
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 990px){
     /* General Info */
     .LoadAllOtherElements{
         opacity: 0%;
