@@ -53,7 +53,7 @@
     align-self: center;
 }
 
-.DefinitionList{
+.DefinitionList div{
     display: flex;
     align-items: center;
     justify-content: center;
