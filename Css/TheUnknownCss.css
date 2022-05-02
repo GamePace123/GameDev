@@ -53,14 +53,13 @@
     align-self: center;
 }
 
-.DefinitionList h3, .DefinitionList p{
-    text-align: center;
-    align-self: center;
+.DefinitionList{
+    background-color: rgb(0, 18, 136);
 }
 
 .DefinitionList div{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(0, 18, 136);
+    
 }
