@@ -70,7 +70,7 @@
     .PlanetArionImg {
         display: block;
         height: 50vh;
-        min-width: 400px;
+        min-width: 300px;
         object-fit: cover;
     }
 
@@ -108,7 +108,7 @@
 
     .PlanetArionImg{
         display: block;
-        object-fit: fill;
+        object-fit: cover;
         width: 100vw;
         height: 150vh;
     }
