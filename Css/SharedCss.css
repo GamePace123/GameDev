@@ -108,9 +108,9 @@
 
     .PlanetArionImg{
         display: block;
-        object-fit: cover;
+        object-fit: fill;
         width: 100vw;
-        height: 120vh;
+        height: 150vh;
     }
 
     .PlanetArionImgContainer{
