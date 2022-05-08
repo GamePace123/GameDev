@@ -29,14 +29,14 @@
 
     /*The Unknwon site*/
 
-    .TrailerVideo{
+    .PlanetArionImg{
         display: block;
         height: 100vh;
         width: 80vw;
         object-fit: cover;
     }
 
-    .TrailerVideoContainer{
+    .PlanetArionImgContainer{
         display: flex;
         background-color: blue;
         align-items: center;
@@ -67,14 +67,14 @@
     }
 
     /* The Unknown Page */
-    .TrailerVideo {
+    .PlanetArionImg {
         display: block;
         height: 50vh;
         min-width: 400px;
         object-fit: cover;
     }
 
-    .TrailerVideoContainer{
+    .PlanetArionImgContainer{
         display: flex;
         background-color: white;
         align-items: initial;
@@ -106,14 +106,14 @@
 
     /* The Unknown Menu */
 
-    .TrailerVideo{
+    .PlanetArionImg{
         display: block;
         object-fit: cover;
         height: 80vh;
         width: 600px;
     }
 
-    .TrailerVideoContainer{
+    .PlanetArionImgContainer{
         display: flex;
         background-color: white;
         align-items: center;
