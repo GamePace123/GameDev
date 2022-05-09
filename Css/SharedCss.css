@@ -54,6 +54,15 @@
         min-height: 300px;
         min-width: 300px;
     }
+
+    .Arion-63cSmallImg{
+        display: block;
+        overflow: hidden;
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 @media screen and (orientation: portrait) and (min-width: 300px) {
@@ -82,8 +91,8 @@
     /* The Unknown Page */
     .PlanetArionImg {
         display: block;
-        height: 40vh;
-        min-width: 200px;
+        height: 50vh;
+        width: 100vw;
         overflow: hidden;
         object-fit: cover;
     }
@@ -94,11 +103,19 @@
         align-items: initial;
     }
 
-    
     .MCS-Img{
         height: 50vh;
         width: 100vw;
         overflow: hidden;
+    }
+
+    .Arion-63cSmallImg{
+        display: block;
+        overflow: hidden;
+        width: 100vw;
+        height: 50vh;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
@@ -161,8 +178,17 @@
     }
 
     .MCS-Img{
-        min-height: 300px;
-        min-width: 300px;
+        min-height: 400px;
+        min-width: 400px;
+    }
+
+    .Arion-63cSmallImg{
+        display: block;
+        overflow: hidden;
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
