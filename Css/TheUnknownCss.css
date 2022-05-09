@@ -79,13 +79,9 @@
     background-color: orange;
 }
 
-.MCS-Img{
-    min-height: 300px;
-    min-width: 300px;
-}
-
 .Arion-63cSmallImg{
     display: block;
+    overflow: hidden;
     width: 500px;
     height: 500px;
     margin-left: auto;
