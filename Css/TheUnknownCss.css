@@ -80,6 +80,11 @@
     background-color: orange;
 }
 
+.MCS-Img{
+    height: 300px;
+    width: 300px;
+}
+
 .FeatureSection{
     min-height: fit-content;
 }
