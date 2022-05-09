@@ -65,12 +65,12 @@
     
 }
 
-.Defenition-Link-Style{
+.Link-Style{
     color: cyan;
     font-weight: 400;
 }
 
-.Defenition-Link-Style:hover{
+.Link-Style:hover{
     color: rgb(0, 255, 191);
     font-weight: bold;
 }
@@ -83,10 +83,6 @@
 .MCS-Img{
     min-height: 300px;
     min-width: 300px;
-}
-
-.FeatureSection{
-    min-height: fit-content;
 }
 
 .Arion-63cSmallImg{

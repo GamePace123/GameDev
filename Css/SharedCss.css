@@ -41,6 +41,12 @@
         background-color: blue;
         align-items: center;
     }
+
+    .MCS-Content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media screen and (orientation: portrait) and (min-width: 300px) {
@@ -116,6 +122,26 @@
     .PlanetArionImgContainer{
         display: flex;
         background-color: white;
+        align-items: center;
+    }
+
+    .FeatureSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FeatureSection content:nth-of-type(1){
+        margin-right: 50px;
+    }
+
+    .FeatureSection content:nth-of-type(2){
+        margin-left: 50px;
+    }
+
+    .MCS-Content{
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 }
@@ -252,6 +278,7 @@ body{
 }
 
 .DefaultLink{
+    color: cyan;
     text-decoration: none;
 }
 
