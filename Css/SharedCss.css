@@ -243,6 +243,10 @@ body{
     }
 }
 
+.NoShow{
+    opacity: 0%;
+}
+
 .CenterText{
     text-align: center;
 }
