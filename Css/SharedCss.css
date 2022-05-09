@@ -330,7 +330,10 @@ body{
 
 .DefaultLink{
     color: cyan;
-    text-decoration: none;
+}
+
+.DefaultLink:hover{
+    color: rgb(0, 255, 191);
 }
 
 .CenterContentsInLine{
