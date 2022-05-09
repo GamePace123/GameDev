@@ -45,10 +45,12 @@
     .MCS-Content{
         display: flex;
         justify-content: center;
+        overflow: hidden;
         align-items: center;
     }
 
     .MCS-Img{
+        overflow: hidden;
         min-height: 300px;
         min-width: 300px;
     }
@@ -82,6 +84,7 @@
         display: block;
         height: 50vh;
         min-width: 300px;
+        overflow: hidden;
         object-fit: cover;
     }
 
@@ -95,6 +98,7 @@
     .MCS-Img{
         height: 50vh;
         width: 100vw;
+        overflow: hidden;
     }
     
 }
