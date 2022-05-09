@@ -79,3 +79,9 @@
     text-align: center;
     background-color: orange;
 }
+
+.FeatureSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
